@@ -1,0 +1,22 @@
+a = 5
+b = 6
+c = 8
+a = 9
+Lbl1:
+t0 = a != 6
+t1 = not t0
+if t1 goto Lbl2
+goto Lbl3
+Lbl4:
+t2 = a - 1
+a = t2
+goto Lbl1
+Lbl3:
+t3 = b + 4
+b = t3
+t4 = c - 1
+c = t4
+goto Lbl4
+Lbl2:
+t5 = b / 9
+b = t5
