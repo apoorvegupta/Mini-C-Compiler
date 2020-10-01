@@ -9,4 +9,4 @@ Functions, if, while, do``while, return.
 Integer, character, true and false literals. String literals, with automatic concatenation.
 The language it implements is typeless. Everything is a 4 byte signed integer.
 Pointer indexing works in increments of 4 bytes, pointer arithmetic is byte-by-byte.
-and most imporatantly  :- The general philosophy was only include a feature if it reduces the total code size. This is taken to its extreme in the insane branch.
+and most importantly  :- The general philosophy was only include a feature if it reduces the total code size. This is taken to its extreme in the insane branch.
